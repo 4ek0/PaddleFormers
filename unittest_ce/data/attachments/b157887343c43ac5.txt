@@ -1,0 +1,169 @@
+INFO     PaddleFormers:testing_utils.py:614 Qwen3VLProcessorTest [PID:2689] Device: gpu:0
+INFO     PaddleFormers:image_processing_utils.py:190 Using download source: aistudio
+INFO     PaddleFormers:image_processing_utils.py:248 loading configuration file /tmp/tmphuobip5h/preprocessor_config.json
+INFO     PaddleFormers:processing_utils.py:499 Using download source: aistudio
+INFO     PaddleFormers:processing_utils.py:621 loading configuration file None
+INFO     PaddleFormers:image_processing_utils.py:190 Using download source: aistudio
+INFO     PaddleFormers:image_processing_utils.py:248 loading configuration file /tmp/tmphuobip5h/preprocessor_config.json
+INFO     PaddleFormers:tokenizer_utils.py:293 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:462 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:517 loading configuration file /tmp/tmphuobip5h/video_preprocessor_config.json
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=80 local_address=None timeout=5.0 socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7eff70cca810>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:15 GMT'), (b'Content-Type', b'video/mp4'), (b'Content-Length', b'17417367'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'Content-MD5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'ETag', b'"902a4001a1c73abb0ca0d97e8927d036"'), (b'Expires', b'Thu, 21 May 2026 17:30:14 GMT'), (b'Last-Modified', b'Fri, 25 Apr 2025 07:40:20 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'4293727771'), (b'x-bce-debug-id', b'FOWZlh3ydd1pSC/XXRmShsPba6ESpIo+O96r22thNPK4PWlpEQTAuBoz/bEwtxgiCecLwcIuiupRNVLyVuvEmw=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-meta-md5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'x-bce-request-id', b'237a3b44-a050-4ee5-992b-26cdfddcb881'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET http://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_video/example_video.mp4 "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+INFO     PaddleFormers:video_utils.py:332 Loading video with paddlecodec backend.
+INFO     PaddleFormers:video_utils.py:334 set PADDLECODEC_NUM_THREADS: 0 (Auto)
+INFO     PaddleFormers:video_utils.py:360 paddlecodec:  video_path=<_io.BytesIO object at 0x7f099f82f1a0>, total_num_frames=263, video_fps=29.99418249715141, time=0.235s
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=80 local_address=None timeout=5.0 socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ef933fcee40>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:15 GMT'), (b'Content-Type', b'video/mp4'), (b'Content-Length', b'17417367'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'Content-MD5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'ETag', b'"902a4001a1c73abb0ca0d97e8927d036"'), (b'Expires', b'Thu, 21 May 2026 17:30:15 GMT'), (b'Last-Modified', b'Fri, 25 Apr 2025 07:40:20 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'4293727771'), (b'x-bce-debug-id', b'w3SXcqE3NeRlMRoAxWLWCOQzc5Hvjq1xzL6S+uvudFWgOteifGLewLqyeMixkPiI3nGemidNFpRiTE4Z6Rl3Bw=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-meta-md5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'x-bce-request-id', b'faccd61f-7ded-4b41-81a6-2c8e4c7ab298'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET http://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_video/example_video.mp4 "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+INFO     PaddleFormers:video_utils.py:332 Loading video with paddlecodec backend.
+INFO     PaddleFormers:video_utils.py:334 set PADDLECODEC_NUM_THREADS: 0 (Auto)
+INFO     PaddleFormers:video_utils.py:360 paddlecodec:  video_path=<_io.BytesIO object at 0x7f099f82dee0>, total_num_frames=263, video_fps=29.99418249715141, time=0.640s
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=80 local_address=None timeout=5.0 socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f00d03aaed0>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:16 GMT'), (b'Content-Type', b'video/mp4'), (b'Content-Length', b'17417367'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'Content-MD5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'ETag', b'"902a4001a1c73abb0ca0d97e8927d036"'), (b'Expires', b'Thu, 21 May 2026 17:30:16 GMT'), (b'Last-Modified', b'Fri, 25 Apr 2025 07:40:20 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'4293727771'), (b'x-bce-debug-id', b'hFcVg0bGqey3Ilgd/0+ZlPH2x/z0e0F78fGeOIBQzVKVaQHHaMxbZLUKFqW5KmS+oWAgoN0ij6o7mPvUFQC+5Q=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-meta-md5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'x-bce-request-id', b'18e55395-31a0-48d8-8353-0e7a76a214b5'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET http://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_video/example_video.mp4 "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+INFO     PaddleFormers:video_utils.py:332 Loading video with paddlecodec backend.
+INFO     PaddleFormers:video_utils.py:334 set PADDLECODEC_NUM_THREADS: 0 (Auto)
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=80 local_address=None timeout=5.0 socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f00a81fc470>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:17 GMT'), (b'Content-Type', b'video/mp4'), (b'Content-Length', b'17417367'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'Content-MD5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'ETag', b'"902a4001a1c73abb0ca0d97e8927d036"'), (b'Expires', b'Thu, 21 May 2026 17:30:17 GMT'), (b'Last-Modified', b'Fri, 25 Apr 2025 07:40:20 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'4293727771'), (b'x-bce-debug-id', b'/iVlWmdOI3nUSmIQz4RdKuIvf8jcj+F+kcS4Rpo/hb8eIedDFq+MtDm2sLw7fHeQ31zouib+sY4BujlNRk35xQ=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-meta-md5', b'kCpAAaHHOrsMoNl+iSfQNg=='), (b'x-bce-request-id', b'b57c01fc-f65a-4471-93b8-d76f1c634d5e'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET http://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_video/example_video.mp4 "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+INFO     PaddleFormers:video_utils.py:332 Loading video with paddlecodec backend.
+INFO     PaddleFormers:video_utils.py:334 set PADDLECODEC_NUM_THREADS: 0 (Auto)
+INFO     PaddleFormers:video_utils.py:360 paddlecodec:  video_path=<_io.BytesIO object at 0x7f0103efd2b0>, total_num_frames=263, video_fps=29.99418249715141, time=4.484s
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=443 local_address=None timeout=None socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f00a81ffe30>
+DEBUG    httpcore.connection:_trace.py:47 start_tls.started ssl_context=<ssl.SSLContext object at 0x7f00b81bcfd0> server_hostname='paddlenlp.bj.bcebos.com' timeout=None
+DEBUG    httpcore.connection:_trace.py:47 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ef933fce510>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:23 GMT'), (b'Content-Type', b'application/octet-stream'), (b'Content-Length', b'552828'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'ETag', b'"-41f059efc53c78029dd426b6b4c4f258"'), (b'Expires', b'Thu, 21 May 2026 17:30:23 GMT'), (b'Last-Modified', b'Thu, 24 Apr 2025 06:54:32 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'3103906927'), (b'x-bce-debug-id', b'5FrmZsX4Z5IC2KCRNHE3ln4bknfrEncfcS6sHBGYGiyqP0BFNw9FSE2Kvk5hW5Gs9SuLe57Iz6+/pUswvtjhVA=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-request-id', b'96799c1b-ba7d-4dbb-813b-1599eef4ec62'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET https://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_images/example1.jpg "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'eXIf' 54 68
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IDAT' 134 16384
+DEBUG    PIL.TiffImagePlugin:TiffImagePlugin.py:941 tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\x1a'
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=443 local_address=None timeout=None socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ef933fcdfd0>
+DEBUG    httpcore.connection:_trace.py:47 start_tls.started ssl_context=<ssl.SSLContext object at 0x7f00b81bcd50> server_hostname='paddlenlp.bj.bcebos.com' timeout=None
+DEBUG    httpcore.connection:_trace.py:47 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f00a81ff710>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:23 GMT'), (b'Content-Type', b'application/octet-stream'), (b'Content-Length', b'552828'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'ETag', b'"-41f059efc53c78029dd426b6b4c4f258"'), (b'Expires', b'Thu, 21 May 2026 17:30:23 GMT'), (b'Last-Modified', b'Thu, 24 Apr 2025 06:54:32 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'3103906927'), (b'x-bce-debug-id', b'lqIm/7utSGrmTf8rURkj7Qzb7tAs3BdTGJ1ZDXuHnpi8Vs1ChtzKyTXjXRYmPmOHiw9Zo7ys71CFufxb7984RA=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-request-id', b'75fddf55-774d-44ac-8ade-55deaafdc4c8'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET https://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_images/example1.jpg "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'eXIf' 54 68
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IDAT' 134 16384
+DEBUG    PIL.TiffImagePlugin:TiffImagePlugin.py:941 tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\x1a'
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=443 local_address=None timeout=None socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f099d351ca0>
+DEBUG    httpcore.connection:_trace.py:47 start_tls.started ssl_context=<ssl.SSLContext object at 0x7f09a298f0d0> server_hostname='paddlenlp.bj.bcebos.com' timeout=None
+DEBUG    httpcore.connection:_trace.py:47 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f099d352bd0>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:23 GMT'), (b'Content-Type', b'application/octet-stream'), (b'Content-Length', b'552828'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'ETag', b'"-41f059efc53c78029dd426b6b4c4f258"'), (b'Expires', b'Thu, 21 May 2026 17:30:23 GMT'), (b'Last-Modified', b'Thu, 24 Apr 2025 06:54:32 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'3103906927'), (b'x-bce-debug-id', b'T76ht7gOVRZSsZZEkqRoO6DpNjLy1HO7UZXTZE6t/XOM2Xxsax1Cq1+uPla3+0cAvDsSUWmocizSmPRfftdaaA=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-request-id', b'3c6c6801-7c02-4b4e-a8ca-5a98c1ed28e0'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET https://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_images/example1.jpg "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'eXIf' 54 68
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IDAT' 134 16384
+DEBUG    PIL.TiffImagePlugin:TiffImagePlugin.py:941 tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\x1a'
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.started host='paddlenlp.bj.bcebos.com' port=443 local_address=None timeout=None socket_options=None
+DEBUG    httpcore.connection:_trace.py:47 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f099d3515b0>
+DEBUG    httpcore.connection:_trace.py:47 start_tls.started ssl_context=<ssl.SSLContext object at 0x7f00b81dcc50> server_hostname='paddlenlp.bj.bcebos.com' timeout=None
+DEBUG    httpcore.connection:_trace.py:47 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ef933fcf3e0>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_headers.complete
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 send_request_body.complete
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 18 May 2026 17:30:24 GMT'), (b'Content-Type', b'application/octet-stream'), (b'Content-Length', b'552828'), (b'Connection', b'keep-alive'), (b'Accept-Ranges', b'bytes'), (b'ETag', b'"-41f059efc53c78029dd426b6b4c4f258"'), (b'Expires', b'Thu, 21 May 2026 17:30:24 GMT'), (b'Last-Modified', b'Thu, 24 Apr 2025 06:54:32 GMT'), (b'Server', b'BceBos'), (b'x-bce-content-crc32', b'3103906927'), (b'x-bce-debug-id', b'gSZH0Jb19wSnmip2C81nl+VsEFG22MD5UHul5TrKnqLPrkMh0GriQxIV6xyVuVFNbI5aPYStlxIS8WISTuEbIw=='), (b'x-bce-flow-control-type', b'-1'), (b'x-bce-is-transition', b'false'), (b'x-bce-request-id', b'70a37cfc-b8a9-4b16-a439-3fa7c82241fd'), (b'x-bce-storage-class', b'STANDARD')])
+INFO     httpx:_client.py:1025 HTTP Request: GET https://paddlenlp.bj.bcebos.com/datasets/paddlemix/demo_images/example1.jpg "HTTP/1.1 200 OK"
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.started request=<Request [b'GET']>
+DEBUG    httpcore.http11:_trace.py:47 receive_response_body.complete
+DEBUG    httpcore.http11:_trace.py:47 response_closed.started
+DEBUG    httpcore.http11:_trace.py:47 response_closed.complete
+DEBUG    httpcore.connection:_trace.py:47 close.started
+DEBUG    httpcore.connection:_trace.py:47 close.complete
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'eXIf' 54 68
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:204 STREAM b'IDAT' 134 16384
+DEBUG    PIL.TiffImagePlugin:TiffImagePlugin.py:941 tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\x1a'

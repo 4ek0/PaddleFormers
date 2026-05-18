@@ -1,0 +1,39 @@
+INFO     PaddleFormers:testing_utils.py:614 Qwen3_Omni_ProcessorTest [PID:2689] Device: gpu:0
+INFO     PaddleFormers:processing_utils.py:499 Using download source: aistudio
+INFO     PaddleFormers:processing_utils.py:621 loading configuration file None
+INFO     PaddleFormers:image_processing_utils.py:190 Using download source: aistudio
+INFO     PaddleFormers:image_processing_utils.py:248 loading configuration file /tmp/tmpwetr4o4r/preprocessor_config.json
+INFO     PaddleFormers:video_processing_utils.py:462 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:517 loading configuration file /tmp/tmpwetr4o4r/video_preprocessor_config.json
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:tokenizer_utils.py:293 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:449 Video processor saved in /tmp/tmpp04ayp05/video_preprocessor_config.json
+INFO     PaddleFormers:feature_extraction_utils.py:300 Feature extractor saved in /tmp/tmpp04ayp05/preprocessor_config.json
+INFO     PaddleFormers:processing_utils.py:448 chat template saved in /tmp/tmpp04ayp05/chat_template.json
+INFO     PaddleFormers:processing_utils.py:499 Using download source: aistudio
+INFO     PaddleFormers:processing_utils.py:621 loading configuration file None
+INFO     PaddleFormers:image_processing_utils.py:190 Using download source: aistudio
+INFO     PaddleFormers:image_processing_utils.py:248 loading configuration file /tmp/tmpp04ayp05/preprocessor_config.json
+INFO     PaddleFormers:video_processing_utils.py:462 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:517 loading configuration file /tmp/tmpp04ayp05/video_preprocessor_config.json
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:tokenizer_utils.py:293 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:449 Video processor saved in /tmp/tmpcthdv84i/video_preprocessor_config.json
+INFO     PaddleFormers:feature_extraction_utils.py:300 Feature extractor saved in /tmp/tmpcthdv84i/preprocessor_config.json
+INFO     PaddleFormers:processing_utils.py:432 chat template saved in /tmp/tmpcthdv84i/chat_template.jinja
+INFO     PaddleFormers:processing_utils.py:499 Using download source: aistudio
+INFO     PaddleFormers:processing_utils.py:621 loading configuration file None
+INFO     PaddleFormers:image_processing_utils.py:190 Using download source: aistudio
+INFO     PaddleFormers:image_processing_utils.py:248 loading configuration file /tmp/tmpcthdv84i/preprocessor_config.json
+INFO     PaddleFormers:video_processing_utils.py:462 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:517 loading configuration file /tmp/tmpcthdv84i/video_preprocessor_config.json
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:download.py:146 Using download source: aistudio
+INFO     PaddleFormers:tokenizer_utils.py:293 Using download source: aistudio
+INFO     PaddleFormers:video_processing_utils.py:449 Video processor saved in /tmp/tmpyyz1atwy/video_preprocessor_config.json
+INFO     PaddleFormers:feature_extraction_utils.py:300 Feature extractor saved in /tmp/tmpyyz1atwy/preprocessor_config.json
